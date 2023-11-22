@@ -40,5 +40,7 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
 
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+
 [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/max.jpg" width="40%">](https://youtu.be/watch?v=tGSUjuSBt1A)
 # 

@@ -36,4 +36,5 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 * Advanced_Tasks:
     *  <ins>**From Task 6 to 19**</ins>
 
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A "Now in Android: 55")
 # 

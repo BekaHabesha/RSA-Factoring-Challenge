@@ -81,7 +81,7 @@
 # *General Requirements*
   * <ins>**You can choose the language of your choice**</ins>.
   *
-  * <ins>** OS needs to be Standard Ubuntu 20.04 LTS/**</ins>.
+  * <ins>**OS needs to be Standard Ubuntu 20.04 LTS/**</ins>.
 
 ##
 
@@ -94,10 +94,10 @@
 #
 
 * File_name: <ins>**README.md file**</ins>
-* Created: <ins>**On November 15, 2023**</ins>
+* Created: <ins>**On November 22, 2023**</ins>
 * Authors:
   * <ins>***Bereket Dereje Mekonnen***</ins>
-* Project: <ins>**0x19.C-Stacks, Queues - LIFO, FIFO**</ins>
+* Project: <ins>**RSA Factoring Challenge**</ins>
 * GitHub repository: <ins>**RSA-Factoring-Challenge**</ins>
 * Directory: <ins>**RSA-Factoring-Challenge**</ins>
 * Project Tasks: <ins>**Only Advanced**</ins>

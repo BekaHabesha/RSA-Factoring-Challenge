@@ -38,6 +38,7 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
 
+[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
 
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)

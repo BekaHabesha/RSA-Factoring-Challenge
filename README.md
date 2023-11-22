@@ -1,5 +1,5 @@
 <H1 align="center", height="1500"> <ins> README.md File </ins> </H1>
-<H1 align="center"> <ins> RSA Factoring Challenge README.md File </ins></H1>
+<H1 align="center"> <ins> RSA Factoring Challenge README.md File </ins> </H1>
 
 ![My alx. ]( https://i.ibb.co/L8z3rQL/RSA-Factoring-Alx-enginn-w-out-writting-org-logo.jpg)
 
@@ -12,35 +12,175 @@
 * File_name:
     *  <ins>**README.md file**</ins>
 * Created:
-    *  <ins>**On November 15, 2023**</ins>
+    *  <ins>**On November 22, 2023**</ins>
 * Author:
   * <ins>***Bereket Dereje Mekonnen***</ins>,
 * Project:
     *  <ins>**RSA Factoring Challenge**</ins>
 * GitHub repository:
-    *  <ins>**monty**</ins>
+    *  <ins>**RSA-Factoring-Challenge**</ins>
 * Directory:
-    *  <ins>**bf and monty**</ins>
+    *  <ins>**RSA-Factoring-Challenge**</ins>
 * Project Tasks:
-    *  <ins>**Mandatory and Advanced**</ins>
+    *  <ins>**Only Advanced**</ins>
 * Tasks in number:
-    *  <ins>**20 Tasks (6-Mandatory & 14-Advanced)**</ins>
+    *  <ins>**2 Tasks (0-Mandatory & 2-Advanced)**</ins>
 * Mandatory_Tasks:
-    *  <ins>**From Task 0 to 5**</ins>
+    *  <ins>**-----**</ins>
 * Advanced_Tasks:
-    *  <ins>**From Task 6 to 19**</ins>
+    *  <ins>**From Task 0 to 1**</ins>
 
-[![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
+# 
 
+### **PROJECT_TITLE:**
+<h2 align="center"> <ins>RSA Factoring Challenge </ins> </h2>
+
+### **GITHUB_REPOSITORY:**
+<h2 align="center"> <ins>RSA-Factoring-Challenge</ins> </h2>
+
+
+<H1 align="center", height="1500"> <ins> Background Context </ins> </H1>
+
+* Before you continue reading, start this song in the background :)
+  * Click the image for the song video
 [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
 
-![monty.]( https://cdn.hashnode.com/res/hashnode/image/unsplash/FnA5pAzqhMM/upload/v1664867430622/yP5GJxzOL.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+* We have **sniffed** an <ins>**unsecured network**</ins> and <ins>**found numbers**</ins> 
+  * that are used to <ins>**encrypt very important documents**</ins>. 
+    * It seems that those numbers are not always generated using large enough prime numbers. 
+    * Your mission should you choose to accept it, 
+      * it is to <ins>**factorize these numbers**</ins> as fast as possible 
+        * before the target fixes this bug on their server - 
+          * so that we can **decode** the <ins>**encrypted documents**</ins>.
 
 
+### <ins>***This project is NOT mandatory***</ins> at all. 
+* It is **100% optional**. 
+  * **Doing any part of this project will add a project grade of over 100% to your average**. 
+  * **Your score won’t get hurt if you don’t do it, 
+    * but if **your current average is greater than your score on this project**, 
+      * **your average might go down**. 
+        * <ins>***Have fun!***</ins>
 
-[![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
+##
+<h1 align="center"> <ins>Resources</ins> </h1>
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+### **Read or watch:**
+  * <ins>**RSA**</ins>
+  * 
+  * <ins>**How does HTTPS provide security?**</ins>
+  * 
+  * <ins>**Prime Factorization**</ins>
+  * 
+  * <ins>**Why RSA?**</ins>
 
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/max.jpg" width="40%">](https://youtu.be/watch?v=tGSUjuSBt1A)
-# 
+##
+
+<h1 align="center"> <ins>Requirements</h1> </ins>
+
+# *General Requirements*
+  * <ins>**You can choose the language of your choice**</ins>.
+  *
+  * <ins>** OS needs to be Standard Ubuntu 20.04 LTS/**</ins>.
+
+##
+
+### ***PROJECT_TITLE:*** 
+<h2 align="center"> <ins> RSA Factoring Challenge</ins></h2>
+
+### ***GITHUB_REPOSITORY:***
+<h2 align="center"> <ins>RSA-Factoring-Challenge</ins></h2> 
+
+#
+
+* File_name: <ins>**README.md file**</ins>
+* Created: <ins>**On November 15, 2023**</ins>
+* Authors:
+  * <ins>***Bereket Dereje Mekonnen***</ins>
+* Project: <ins>**0x19.C-Stacks, Queues - LIFO, FIFO**</ins>
+* GitHub repository: <ins>**RSA-Factoring-Challenge**</ins>
+* Directory: <ins>**RSA-Factoring-Challenge**</ins>
+* Project Tasks: <ins>**Only Advanced**</ins>
+* Tasks in number: <ins>**2 Tasks (0->Mandatory & 2->Advanced)**</ins>
+* Mandatory_Tasks: <ins>**----**</ins>
+* Advanced_Tasks: <ins>**From Task 0 to 1**</ins>
+#
+
+![RSA-Factoring-Challenge.]( https://privacycanada.net/app/uploads/2020/05/encryption.jpg)
+
+<h1 align="center"> <ins> PROJECT TASKS (Only Advanced)</h1> </ins>
+
+<h1 align="center">ADVANCED_TASKS (From Task 0 to 1)</h1>
+
+## **No. 0. Factorize all the things!**
+* <ins>**File</ins>:** 
+  * **factors**
+  * 
+    * <ins>**Factorize as many numbers as possible into a product of two smaller numbers.<ins>**
+    * 
+    * <ins>**Usage</ins>:**
+      * **factors <file>**
+        * where <ins>**<file>**</ins> 
+          *  is a file containing natural numbers to factor.
+        * One number per line
+        * You can assume that 
+          * all lines will be valid natural numbers greater than 1
+        * You can assume that 
+          * there will be no empy line, and no space 
+            * before and after the valid number
+        * The file will always end with a new line
+    * 
+    * <ins>**Output format</ins>:**
+      * **n=p*q**
+        * one factorization per line
+        * **p** and **q** 
+          * don’t have to be prime numbers
+        * See example
+    * 
+    * You can work on 
+      * the numbers of the file in the order of your choice
+    * 
+    * Your program should run without any dependency: 
+      * You will not be able to install anything on the machine 
+      * we will run your program on
+    * 
+    * <ins>**Time limit</ins>:** 
+      * Your program will be killed after 5 seconds 
+        * if it hasn’t finish
+    * 
+    * Push all your 
+      * <ins>**scripts</ins>**, 
+      * <ins>**source code</ins>**, etc… to your repository
+        * we will only run your executable factors
+ 
+![beka.]( https://i.ibb.co/znm9P5J/RSA-0-factors-1.png)
+
+![beka.]( https://i.ibb.co/zxDVqBx/RSA-0-factors-2.png)
+
+##
+
+## **No. 1. RSA Factoring Challenge**
+* <ins>**File</ins>:** 
+  * **rsa**
+  * 
+    * <ins>**RSA Laboratories states that<ins>:**
+      * for each RSA number **n**,
+        * there exist prime numbers <ins>**p**</ins> and <ins>**q**</ins> such that
+          * <ins>**n = p x q**</ins>
+            * The <ins>**problem**</ins> is to find these <ins>**two primes**</ins>,
+              * given only <ins>**n**</ins>
+    * 
+    * <ins>**This task is the same as task 0**</ins>, 
+      * except:
+        * <ins>**p**</ins> and <ins>**q**</ins> 
+          * are always prime numbers
+        * There is 
+          * <ins>**only one number in the files**</ins> 
+    * 
+    * How far can you go in less than 5 seconds?
+      * **Read:** 
+        * <ins>**RSA Factoring Challenge**</ins>
+
+![beka.]( https://i.ibb.co/vJBMFXW/RSA-1-rsa1.png)
+
+#

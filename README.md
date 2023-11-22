@@ -36,22 +36,8 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 * Advanced_Tasks:
     *  <ins>**From Task 6 to 19**</ins>
 
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A "Now in Android: 55")
 
-![beki] (https://youtu.be/tGSUjuSBt1A)
-
-![beki](https://youtu.be/tGSUjuSBt1A "Now in Android: 55")
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
-
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A "Now in Android: 55")
-
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
-
-[<video src="https://youtu.be/tGSUjuSBt1A" width="50%">]
-
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/watch?v=tGSUjuSBt1A)
-
-[<video src="https://youtu.be/watch?v=tGSUjuSBt1A" width="25%">]
 
 # 

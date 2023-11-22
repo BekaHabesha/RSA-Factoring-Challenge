@@ -40,6 +40,9 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 
 [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
 
+![monty.]( https://cdn.hashnode.com/res/hashnode/image/unsplash/FnA5pAzqhMM/upload/v1664867430622/yP5GJxzOL.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+
+
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
 

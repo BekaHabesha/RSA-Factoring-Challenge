@@ -36,6 +36,8 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 * Advanced_Tasks:
     *  <ins>**From Task 6 to 19**</ins>
 
+[![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
+
 
 
 [![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)

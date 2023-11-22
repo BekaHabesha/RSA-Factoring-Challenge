@@ -41,4 +41,7 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 ![beki] (https://youtu.be/tGSUjuSBt1A)
 
 ![beki](https://youtu.be/tGSUjuSBt1A "Now in Android: 55")
+
+[![Watch the video](https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg)](https://youtu.be/tGSUjuSBt1A)
+
 # 

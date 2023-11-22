@@ -50,4 +50,8 @@ https://www.youtube.com/watch?v=aaNrAiUNHtQ
 
 [<video src="https://youtu.be/tGSUjuSBt1A" width="50%">]
 
+[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/watch?v=tGSUjuSBt1A)
+
+[<video src="https://youtu.be/watch?v=tGSUjuSBt1A" width="25%">]
+
 # 

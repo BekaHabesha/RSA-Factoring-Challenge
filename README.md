@@ -186,15 +186,15 @@
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files.
-  *[0-add_integer.txt](./tests/0-add_integer.txt)
-  *[0-add_integer.txt](./tests/0-add_integer.txt)
-  *[0-add_integer.txt](./tests/0-add_integer.txt)
-  *[0-add_integer.txt](./tests/0-add_integer.txt)
-  *[0-add_integer.txt](./tests/0-add_integer.txt)
+  * [0-add_integer.txt](./tests/0-add_integer.txt)
+  * [0-add_integer.txt](./tests/0-add_integer.txt)
+  * [0-add_integer.txt](./tests/0-add_integer.txt)
+  * [0-add_integer.txt](./tests/0-add_integer.txt)
+  * [0-add_integer.txt](./tests/0-add_integer.txt)
 
 ## Function Prototypes :floppy_disk:
 
-## Function Prototypes :usb_disk:
+## Function Prototypes :usb:
 
 
 #

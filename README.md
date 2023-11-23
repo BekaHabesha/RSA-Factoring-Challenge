@@ -44,6 +44,8 @@
 * Before you continue reading, start this song in the background :)
   * Click the image for the song video
 [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
+  * or use the below link
+- [x] https://youtu.be/tGSUjuSBt1A
 
 * We have **sniffed** an <ins>**unsecured network**</ins> and <ins>**found numbers**</ins> 
   * that are used to <ins>**encrypt very important documents**</ins>. 

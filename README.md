@@ -266,9 +266,9 @@
 
 ## Function Prototypes :new_volume(D:):
 
-## Function Prototypes :D:
+## Function Prototypes :HD:
 
-## Function Prototypes :disk:
+## Function Prototypes :hd:
 
 ## Function Prototypes :Network:
 

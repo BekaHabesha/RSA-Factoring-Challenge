@@ -194,7 +194,13 @@
 
 ## Function Prototypes :floppy_disk:
 
-## Function Prototypes :usb:
+## Function Prototypes :cd_drive:
+
+## beki :cd:
+## beki :CD_drive:
+## beki :CD:
+
+## beki :usb_drive:
 
 
 #

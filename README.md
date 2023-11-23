@@ -366,6 +366,13 @@ A footnote can also have multiple lines[^2].
 > > > > or use the below link
 > > > > > - [x] https://youtu.be/tGSUjuSBt1A
 
+[![YouTube](https://raw.githubusercontent.com/praveenscience/Beki/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
+
+[![YouTube](https://raw.githubusercontent.com/praveenscience/BekaHabesha/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
+
+[![YouTube](https://raw.githubusercontent.com/BekaHabesha/praveenscience/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
+
+
 
 [![YouTube](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
 

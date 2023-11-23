@@ -41,15 +41,17 @@
 
 <H1 align="center", height="1500"> <ins> Background Context </ins> </H1>
 
-* Before you continue reading, start this song in the background :)
-  * <ins>***For start to listen the song video in the background:)***</ins>
-    * Click the image, or
-    * or use the below link
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
- - [x] https://youtu.be/tGSUjuSBt1A
-  
-   
-#####    
+> [!IMPORTANT]
+> Before you continue reading, 
+> start this song in the background :)
+
+> [!TIP]
+> <ins>***For start to listen the song video in the background:)***</ins>
+> > **Click the image**,
+> > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
+> > > > or **use the link below**
+> > > > > - [x] https://youtu.be/tGSUjuSBt1A
+
 * We have **sniffed** an <ins>**unsecured network**</ins> and <ins>**found numbers**</ins> 
   * that are used to <ins>**encrypt very important documents**</ins>. 
     * It seems that those numbers are not always generated using large enough prime numbers. 
@@ -187,198 +189,5 @@
         * <ins>**RSA Factoring Challenge**</ins>
 
 ![beka.]( https://i.ibb.co/vJBMFXW/RSA-1-rsa1.png)
-
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files.
-  * [0-add_integer.txt](./tests/0-add_integer.txt)
-  * [0-add_integer.txt](./tests/0-add_integer.txt)
-  * [0-add_integer.txt](./tests/0-add_integer.txt)
-  * [0-add_integer.txt](./tests/0-add_integer.txt)
-  * [0-add_integer.txt](./tests/0-add_integer.txt)
-
-## Function Prototypes :floppy_disk:
-
-## Function Prototypes :cd_drive:
-
-## beki :cd:
-## beki :CD_drive:
-## beki :CD:
-
-## beki :usb_drive:
-
-
-## Function Prototypes :floppy_disk:
-
-## Function Prototypes :cd_drive:
-
-## Function Prototypes :flash_disk:
-
-| `fil`e | beki |
-| ---- | ---- |
-| '0-fi_le.py' | 'beki love(a, b=98):' |
-| 'file' | 'beki' |
-
-##
-
-
-
-| file | beki |
-| ---- | ---- |
-| `0-fi_le.py` | `beki love(a, b=98):` |
-| `file` | `beki` |
-
-## Function Prototypes :floppy_disk:
-
-## Function Prototypes :cd:
-
-## Function Prototypes :flash:
-
-| `file` | beki |
-| ---- | ---- |
-| '0-fi_le.py' | 'beki love(a, b=98):' |
-| `file | beki` |
-
-##
-
-
-
-| file | beki |
-| ---- | ---- |
-| `0-fi_le.py` | `beki love(a, b=98):` |
-| `file` | `beki` |
-
-
-* [tests](./tests): Folder of test files.
-  * [0-add_integer.txt](./tests/test00)
-  * [0-add_integer.txt](./tests/rsa-1)
-  * [0-add_integer.txt](./tests/rsa-2)
-  * [0-add_integer.txt](./tests/rsa-15)
-  * [0-add_integer.txt](./tests/rsa-16)
-
-## Function Prototypes :drive:
-
-## Function Prototypes :hard_disk_drive:
-
-## Function Prototypes :Windows(C:)_drive:
-
-## Function Prototypes :windows_drive:
-
-## Function Prototypes :windows(C:):
-## Function Prototypes :windows(C):
-
-## Function Prototypes :New_Volume(D:):
-
-## Function Prototypes :new_volume(D:):
-
-## Function Prototypes :HD:
-
-## Function Prototypes :hd:
-
-## Function Prototypes :Network:
-
-## Function Prototypes :word:
-
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-<!-- @octocat --> :+1: <!-- This PR looks great - it's ready to merge! --> :shipit:
-
-<!-- @octocat --> :+2: <!-- This PR looks great - it's ready to merge! --> :shipit:
-
-[youtube][]
-[youtube]:[https://youtu.be/tGSUjuSBt1A]
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
-
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].
-
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
-
-
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
-
-
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-
-[![Website](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/ws.svg)](https://praveen.science/) 
-
-[![Blog](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/bl.svg)](https://blog.praveen.science/) 
-
-[![LinkedIn](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/li.svg)](https://uk.linkedin.com/in/praveentech/) 
-
-[![Twitter](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/tw.svg)](https://twitter.com/praveenscience) 
-
-[![YouTube](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/yt.svg)](https://youtube.com/praveenscience)
-
-
-
-> [!IMPORTANT]
-> Before you continue reading, 
-> start this song in the background :)
-
-> [!TIP]
-> For start to listen the song video in the background:)
-> > Click the image,
-> > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
-> > > or use the below link
-
-
-> [!TIP]
-> <ins>***For start to listen the song video in the background:)***</ins>
-> > **Click the image**,
-> > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
-> > > > or **use the below link**
-> > > > > - [x] https://youtu.be/tGSUjuSBt1A
-> > > > > > [![YouTube](https://www.svgrepo.com/show/13671/youtube.svg)](https://youtu.be/tGSUjuSBt1A)
-> 
-> > [![YouTube](https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg)](https://youtu.be/tGSUjuSBt1A)
-> > > [![YouTube](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://youtu.be/tGSUjuSBt1A)
-
-
-> [!TIP]
-> <ins>***For start to listen the song video in the background:)***</ins>
-> > **Click the image**,
-> > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
-> > > > or **use the below link**
-> > > > > - [x] https://youtu.be/tGSUjuSBt1A
-> > > > > > [![YouTube](https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://iconmonstr.com/youtube-1-svg/)](https://youtube.com/tGSUjuSBt1A)
-
-[![YouTube](https://brandeps.com/logo-download/Y/Youtube-logo-vector-01.svg)](https://youtu.be/tGSUjuSBt1A)
 
 #

@@ -42,8 +42,8 @@
 <H1 align="center", height="1500"> <ins> Background Context </ins> </H1>
 
 * Before you continue reading, start this song in the background :)
-    * Click the image for the song video<br> or use the below link
-[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)<br>
+    * Click the image for the song video
+[<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)<br> or use the below link
 - [x] https://youtu.be/tGSUjuSBt1A
 
 * We have **sniffed** an <ins>**unsecured network**</ins> and <ins>**found numbers**</ins> 

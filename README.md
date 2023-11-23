@@ -355,60 +355,26 @@ A footnote can also have multiple lines[^2].
 > > Click the image,
 > > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
 > > > or use the below link
-> > > - [x] https://youtu.be/tGSUjuSBt1A
-
 
 
 > [!TIP]
-> For start to listen the song video in the background:)
-> > Click the image,
+> <ins>***For start to listen the song video in the background:)***</ins>
+> > **Click the image**,
 > > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
-> > > > or use the below link
+> > > > or **use the below link**
 > > > > > - [x] https://youtu.be/tGSUjuSBt1A
-
-[![YouTube](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://youtu.be/tGSUjuSBt1A)
-
-
-[![YouTube](https://www.google.com/search?sca_esv=584934822&rlz=1C1CHBD_enET1039ET1040&sxsrf=AM9HkKmnQrf5nFFJrqNO4W6gkly9eLtmqw:1700776928036&q=youtube+icon&tbm=isch&chips=q:youtube+icon,g_1:transparent+png:89pcC6TJGFY%3D&usg=AI4_-kSAlDed7Z_zwZmRXC0bLlzr11F-eQ&sa=X&sqi=2&ved=2ahUKEwj61Yzlj9uCAxWgh_0HHdbhAXIQgIoDKAN6BAgWEB0)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAk1BMVEX///+mJCMAAAAbGxugAAClISD27e3YrKz4+PjMkZGpMTGiDAulFBKkHBu2trbz8/MUFBTlycmkGReVlZW+bm3U1NRDQ0Pt2dmzT0779fUKCgrg4OCsrKx9fX3Kysq6ZWWuQUHw4eHgvr7btbVjY2OGhobCfHwmJibUpKRycnJTU1MxMTG4Xl6jo6NLS0vQnJzGhoWFhIirAAAEyElEQVRoge2Ya3eiMBCGuQwYICiiVtCtSrVoW1r9/79uZ5J4AREV7Tl79uT9UEOgeZLJZDKJYWhpaWlpaWlpaWlpaWlpaWlpaf0LYmnqum6WZeMaYTW+dNP0ydC03/Hy4TxZ+GYYBHBJPHb8RVIM8932LXsOeVxguwGPw9BBmU3C92EYxxz75y+fgPYgbuRd6gYkD5vfgzZkUvAovN8abZrgPcZOWhlcynEe8jgXh43uc6Jq+1h10f+gU26tO0DJIhbeR83sNzCdRXKqCppe+pfg8bzCtlBTKk2pdIXtcRPeSjVJaeRAK8kLLhndL7fWW0e29YdK35Yd/TSjjSKUzR+1KLM7jezQLTf3YdmTlShMbOv9ChvNWRn3PWyTj8vNzSzbtvCXrfH3iskNILOmqYzSKUbrNLmHHZT7bfS+IsEcocm/es3olFY3BsnYJONhhIsrTn2FXXV0MrqFnj5A239cGXYmIgtGad+VjKpHH9j1rh5sKg3SgD8NY4XT3ZWWGM32tme9Xo9RFco4RrUDG9cN7VhEFT+KDRACV58CWgdA9oVXI1vvBY3OhL9T+2ywxrW2/hbvumgMtEnvB32B1bHDIhtnHTDjPm7ZsWTvYOsyNxeWj/2Ny5i78UU85HnVku9o9Nlo7+4rK7JtO7JeFZvmA7sXEfvtjB0PpTk4eR935Lj7otkCcXGiwqgr1oP4ump0a4DTbdFYv8ntLfrTLbHFuJeX2e6RrbYr6mhwiOAUjc8CG62uKPp8kSZnZPrB7FX6QJXduYltjDuEzwKT70QnxMrK4zq2QaQIV5hBgdWOyPR2ZK+nLdkdgIJGin5GVA9gq8xQw6bwYgsIFUVwoyA3asneBSaIKXYAa9nCCRP833E9m0n26GhkMoU1a8nG+gAfU2Sj7ZnvOItUTngN2/hE145sKv15OjvFpe8TO6hnD8ivP36HzTzP2zawxX4y+x32XpfY6N32ZPQfsjOpMX+MfVtcq/iaL84vDm1t5zH1dnZDPG9cY6Ha7B5hn+9jN67vznK5iev2sd9lp74TFsrXgpqTyZG9j6mrUkxlip1dZEOZTdCTmCrYlFpU85YSe6o2sIl9upeI2MNUvlbHlketPRsCSsRd3wHayXMAMjVua9X8usJmlDm+dleYSag9NFrPPijeE9s4Z9OqSYcyB9zv35sh5cIZlzZO85y+XpLN+01slTtMVO5AAS+yrK+1YqvjzknOlMgW2AlbCTcuxz8GF0pcqvn53tL73HyfM4ljwhS3GNv6Gv3InMmYx9VcEeR/DU/meyNPHzsMJsHBsbd0inRqTuBTKzqwje8J5kxRVz1g+aPHXiaS7XHFTg9syguyRESwWM23T8Nbik+hEFmTm4vMfnGOPuvK6HhGYFN28uYQXChYSBuAP0wgFDkyTgin+hAWw4X6MgR/jg+iI7wmtNwut+bawYmrh3A6u4Qn7/cPdW5+h4pH7h189zqgQWPefKvVpLrIcpc60BYOD822gvM25BBq9pG75e5AXizGobxarLtclPWHW0WAeU1YaaWsv9zu8mFR0JUqImLOg0DdrFKB47ncMX26TZ3nO6/THz/7SheViqtkJZkbHZ/dNGXXm9DS0tLS0tLS0tLS0tLS0tLS0mqrvwcsa9D0DkHHAAAAAElFTkSuQmCC)](https://youtu.be/tGSUjuSBt1A)
+> > > > > > [![YouTube](https://www.svgrepo.com/show/13671/youtube.svg)](https://youtu.be/tGSUjuSBt1A)
+> 
+> > [![YouTube](https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg)](https://youtu.be/tGSUjuSBt1A)
+> > > [![YouTube](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://youtu.be/tGSUjuSBt1A)
 
 
-
-
-[![YouTube](https://raw.githubusercontent.com/praveenscience/Beki/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://raw.githubusercontent.com/praveenscience/BekaHabesha/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://raw.githubusercontent.com/BekaHabesha/praveenscience/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
-
-
-
-[![YouTube](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://raw.githubusercontent.com/praveenscience/praveenscience/master/soc/yt.svg)](https://youtube.com/MultiOmps/tGSUjuSBt1A)
-
-
-
-[![YouTube](https://raw.githubusercontent.com/bekahabesha/bekahabesha/master/soc/yt.svg)](https://youtube.com/tGSUjuSBt1A)
-
-[![YouTube](https://raw.githubusercontent.com/bekahabesha/bekahabesha/master/soc/yt.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://raw.githubusercontent.com/bekahabesha/bekahabesha/master/soc/yt.svg)](https://youtube.com/MultiOmps/tGSUjuSBt1A)
-
-
-
-[![YouTube](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)](https://youtu.be/tGSUjuSBt1A)
-
-
-[![YouTube](https://www.svgrepo.com/show/13671/youtube.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg)](https://youtu.be/tGSUjuSBt1A)
-
-[![YouTube](https://iconscout.com/free-icon/youtube-82)](https://youtu.be/tGSUjuSBt1A)
-
-
-
-[![YouTube](https://iconscout.com/free-icon/youtube-81)](https://youtube.com/tGSUjuSBt1A)
-
-#
+> [!TIP]
+> <ins>***For start to listen the song video in the background:)***</ins>
+> > **Click the image**,
+> > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
+> > > > or **use the below link**
+> > > > > - [x] https://youtu.be/tGSUjuSBt1A
+> > > > > > [![YouTube](https://www.svgrepo.com/show/13671/youtube.svg)](https://youtu.be/tGSUjuSBt1A)
+> 
+>

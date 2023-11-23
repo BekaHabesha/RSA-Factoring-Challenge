@@ -46,7 +46,7 @@
     * Click the image, or
     * or use the below link
 [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
- -                     [x] https://youtu.be/tGSUjuSBt1A
+ - [x] https://youtu.be/tGSUjuSBt1A
   
    
 #####    

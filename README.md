@@ -251,6 +251,27 @@
   * [0-add_integer.txt](./tests/rsa-15)
   * [0-add_integer.txt](./tests/rsa-16)
 
-## Function Prototypes :HDD:
+## Function Prototypes :hdd:
+
+## Function Prototypes :hdd:
+
+## Function Prototypes :Windows(C:):
+
+## Function Prototypes :windows:
+
+## Function Prototypes :windows(C:):
+## Function Prototypes :windows(C):
+
+## Function Prototypes :New_Volume(D:):
+
+## Function Prototypes :new_volume(D:):
+
+## Function Prototypes :new_volume(D):
+
+## Function Prototypes :network:
+
+## Function Prototypes :Network:
+
+## Function Prototypes :word:
 
 #

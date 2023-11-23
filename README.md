@@ -203,4 +203,24 @@
 ## beki :usb_drive:
 
 
+## Function Prototypes :floppy_disk:
+
+## Function Prototypes :cd_drive:
+
+## Function Prototypes :flash_disk:
+
+| file | beki |
+| ---- | ---- |
+| '0-fi_le.py' | 'beki love(a, b=98):' |
+| 'file' | 'beki' |
+
+##
+
+
+
+| file | beki |
+| ---- | ---- |
+| `0-fi_le.py` | `beki love(a, b=98):` |
+| `file` | `beki` |
+
 #

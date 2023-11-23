@@ -375,6 +375,4 @@ A footnote can also have multiple lines[^2].
 > > > [<img src="https://img.youtube.com/vi/tGSUjuSBt1A/default.jpg" width="50%">](https://youtu.be/tGSUjuSBt1A)
 > > > > or **use the below link**
 > > > > > - [x] https://youtu.be/tGSUjuSBt1A
-> > > > > > [![YouTube](https://www.svgrepo.com/show/13671/youtube.svg)](https://youtu.be/tGSUjuSBt1A)
-> 
->
+> > > > > > [![YouTube](https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg)](https://youtu.be/tGSUjuSBt1A)

@@ -39,7 +39,7 @@
 <h2 align="center"> <ins>RSA-Factoring-Challenge</ins> </h2>
 
 
-<H1 align="center", height="1500"> <ins> Background Context </ins> </H1>
+<H1 align="center", height="1500"> <ins> Background Context :floppy_disk:</ins> </H1>
 
 > [!IMPORTANT]
 > Before you continue reading, 
@@ -70,9 +70,9 @@
         * <ins>***Have fun!***</ins>
 
 ##
-<h1 align="center"> <ins>Resources</ins> </h1>
+<h1 align="center"> <ins>Resources :floppy_disk:</ins> </h1>
 
-### **Read or watch:**
+### **Read or watch: :cd:**
   * <ins>**RSA**</ins>
   * 
   * <ins>**How does HTTPS provide security?**</ins>
@@ -83,7 +83,7 @@
 
 ##
 
-<h1 align="center"> <ins>Requirements</h1> </ins>
+<h1 align="center"> <ins>Requirements :floppy_disk:</h1> </ins>
 
 # *General Requirements*
   * <ins>**You can choose the language of your choice**</ins>.
@@ -111,15 +111,29 @@
 * Tasks in number: <ins>**2 Tasks (0->Mandatory & 2->Advanced)**</ins>
 * Mandatory_Tasks: <ins>**----**</ins>
 * Advanced_Tasks: <ins>**From Task 0 to 1**</ins>
-#
+
+##
+
+<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION</ins>:floppy_disk:</h1> 
+
+* <ins>**Click</ins>:**
+  * <ins>**tests</ins>:** For tests folder and all files in tests folder. or 
+  * <ins>**respective file names</ins>:** For respective file and to see inside file.
+
+* [tests](./tests): Folder of test files.
+  * [test00.txt](./tests/test00)
+  * [rsa-1.txt](./tests/rsa-1)
+  * [rsa-2.txt](./tests/rsa-2)
+  * [rsa-15.txt](./tests/rsa-15)
+  * [rsa-16.txt](./tests/rsa-16)
 
 ![RSA-Factoring-Challenge.]( https://privacycanada.net/app/uploads/2020/05/encryption.jpg)
 
 <h1 align="center"> <ins> PROJECT TASKS (Only Advanced)</h1> </ins>
 
-<h1 align="center">ADVANCED_TASKS (From Task 0 to 1)</h1>
+<h1 align="center">ADVANCED_TASKS :floppy_disk:(From Task 0 to 1)</h1>
 
-## **No. 0. Factorize all the things!**
+## **No. 0. Factorize all the things!** :heavy_check_mark:
 * <ins>**File</ins>:** 
   * **factors**
   * 
@@ -166,7 +180,7 @@
 
 ##
 
-## **No. 1. RSA Factoring Challenge**
+## **No. 1. RSA Factoring Challenge** :heavy_check_mark:
 * <ins>**File</ins>:** 
   * **rsa**
   * 
@@ -191,37 +205,19 @@
 ![beka.]( https://i.ibb.co/vJBMFXW/RSA-1-rsa1.png)
 
 ##
+<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION</ins>:floppy_disk:</h1> 
 
-<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION :floppy_disk:</h1> </ins>
-
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files.
-  *[0-add_integer.txt](./tests/test00)
-  *[0-add_integer.txt](./tests/rsa-1)
-  *[0-add_integer.txt](./tests/rsa-2)
-  *[0-add_integer.txt](./tests/rsa-15)
-  *[0-add_integer.txt](./tests/rsa-16)
-* <ins>Click</ins>:
-  * <ins>**tests</ins>:**
-    * for tests folder and all files in tests folder. or 
-  * <ins>**tests</ins>:**
-    * for tests folder and all files in tests folder.
-
-##
-<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION</h1> </ins>:floppy_disk:
-
-## <ins>**Click</ins>:**:heavy_check_mark:
-* <ins>**Click</ins>:**:heavy_check_mark:
+* <ins>**Click</ins>:**
   * <ins>**tests</ins>:**
     * For tests folder and all files in tests folder. or 
   * <ins>**respective file names</ins>:**
     * For respective file and to see inside file.
 
 * [tests](./tests): Folder of test files.
-  * [0-add_integer.txt](./tests/test00)
-  * [0-add_integer.txt](./tests/rsa-1)
-  * [0-add_integer.txt](./tests/rsa-2)
-  * [0-add_integer.txt](./tests/rsa-15)
-  * [0-add_integer.txt](./tests/rsa-16)
+  * [test00.txt](./tests/test00)
+  * [rsa-1.txt](./tests/rsa-1)
+  * [rsa-2.txt](./tests/rsa-2)
+  * [rsa-15.txt](./tests/rsa-15)
+  * [rsa-16.txt](./tests/rsa-16)
+
 #

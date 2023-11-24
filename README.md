@@ -219,5 +219,6 @@
   * [rsa-2.txt](./tests/rsa-2)
   * [rsa-15.txt](./tests/rsa-15)
   * [rsa-16.txt](./tests/rsa-16)
-* [doctest — Test interactive Python examples](./https://intranet.alxswe.com/rltoken/BwZJVq2MQ1_Vg_3gphoitQ)
+* [doctest — Test interactive Python examples](/https://intranet.alxswe.com/rltoken/BwZJVq2MQ1_Vg_3gphoitQ)
+* [doctest — Test interactive Python examples](https://intranet.alxswe.com/rltoken/BwZJVq2MQ1_Vg_3gphoitQ)
 #

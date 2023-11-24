@@ -190,4 +190,22 @@
 
 ![beka.]( https://i.ibb.co/vJBMFXW/RSA-1-rsa1.png)
 
+##
+
+<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION :floppy_disk:</h1> </ins>
+
+## Tests :heavy_check_mark:
+
+* [tests](./tests): Folder of test files.
+  *[0-add_integer.txt](./tests/test00)
+  *[0-add_integer.txt](./tests/rsa-1)
+  *[0-add_integer.txt](./tests/rsa-2)
+  *[0-add_integer.txt](./tests/rsa-15)
+  *[0-add_integer.txt](./tests/rsa-16)
+* <ins>Click</ins>:
+  * <ins>**tests</ins>:**
+    * for tests folder and all files in tests folder. or 
+  * <ins>**tests</ins>:**
+    * for tests folder and all files in tests folder.
+
 #

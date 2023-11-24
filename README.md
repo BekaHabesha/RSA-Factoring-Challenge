@@ -208,4 +208,20 @@
   * <ins>**tests</ins>:**
     * for tests folder and all files in tests folder.
 
+##
+<h1 align="center"> <ins> PROJECT TESTS FOLDER LOCATION</h1> </ins>:floppy_disk:
+
+## <ins>**Click</ins>:**:heavy_check_mark:
+* <ins>**Click</ins>:**:heavy_check_mark:
+  * <ins>**tests</ins>:**
+    * For tests folder and all files in tests folder. or 
+  * <ins>**respective file names</ins>:**
+    * For respective file and to see inside file.
+
+* [tests](./tests): Folder of test files.
+  * [0-add_integer.txt](./tests/test00)
+  * [0-add_integer.txt](./tests/rsa-1)
+  * [0-add_integer.txt](./tests/rsa-2)
+  * [0-add_integer.txt](./tests/rsa-15)
+  * [0-add_integer.txt](./tests/rsa-16)
 #

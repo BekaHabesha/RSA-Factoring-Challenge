@@ -1,65 +1,27 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
-"""Factorize digits into an outcome of two smaller digits"""
 import sys
-import time
 
-def generate_primes(limit):
-    primes = [2]
-    for num in range(3, limit + 1, 2):
-        is_prime = all(num % prime != 0 for prime in primes if prime * prime <= num)
-        if is_prime:
-            primes.append(num)
-    return primes
+def factorize(num):
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return i, num // i
+    return num, 1
 
-PRIMES = generate_primes(1000)
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: ./factors <file>")
+        sys.exit(1)
 
-def least_prime(n):
-    """Find the smallest prime factor of n"""
-    if n <= 1:
-        return n
-    for prime in PRIMES:
-        if n % prime == 0:
-            return prime
-        if prime * prime > n:
-            break
-    return n
+    input_file = sys.argv[1]
 
-def factorize(digit):
-    """Factorize a digit into two smaller digits"""
-    if digit <= 1:
-        return digit, 1
+    with open(input_file, 'r') as file:
+        numbers = file.read().splitlines()
 
-    elem = least_prime(digit)
-    if elem == digit:
-        return digit, 1
-
-    fac = digit // elem
-    return fac, elem
-
-def factorize_file(path):
-    """Factorize digits in the provided file into two smaller digits"""
-    try:
-        with open(path) as f:
-            for line in f:
-                n = int(line.strip())
-                p, q = factorize(n)
-                print(f"{n}={p}*{q}")
-
-                if time.time() - start_time > 5:
-                    print("Execution time exceeded the limit.")
-                    break
-    except FileNotFoundError:
-        print(f"File '{path}' not found.")
-    except ValueError:
-        print("Invalid data in the file.")
+    for num in numbers:
+        num = int(num)
+        p, q = factorize(num)
+        print(f"{num}={p}*{q}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        sys.exit(f"Usage: {sys.argv[0]} <path>")
-
-    factors = sys.argv[1]
-
-    start_time = time.time()
-
-    factorize_file(factors)
+    main()

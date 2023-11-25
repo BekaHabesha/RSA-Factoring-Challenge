@@ -1,56 +1,21 @@
 #!/usr/bin/python3
-
+"""find these two primes p and q of given n, n = p x q"""
 import sys
-import time
-import math
+from math import ceil, sqrt
 
-def prime_digit(num):
-    """search if a digit is prime"""
-    if num < 2:
-        return False
-    for k in range(2, int(math.sqrt(num)) + 1):
-        if num % k == 0:
-            return False
-    return True
-
-def gcd(a, b):
-    """search the largest divisor of a and b"""
-    while b:
-        a, b = b, a % b
-    return a
-
-def pollard_rho(n):
-    """Pollard's rho algorithm for factorizing a number"""
+with open(sys.argv[1], "r") as fp:
+    n = int(fp.readline())
+    # check if value is even
     if n % 2 == 0:
-        return 2, n // 2
-
-    x = 2
-    y = 2
-    d = 1
-    f = lambda val: (val * val + 1) % n
-
-    while d == 1:
-        x = f(x)
-        y = f(f(y))
-        d = gcd(abs(x - y), n)
-
-    return d, n // d
-
-def factorize_file(path):
-    """Factorizes digits in the provided file into two prime factors"""
-    try:
-        with open(path) as f:
-            n = int(f.read().strip())
-            p, q = pollard_rho(n)
-            if p is not None and q is not None and prime_digit(p) and prime_digit(q):
-                print(f"{n}={p}*{q}")
-            else:
-                print(f"Couldn't find two prime factors for {n}")
-    except FileNotFoundError:
-        print("File not found.")
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python rsa.py <filename>")
+        print("{}={}*{}".format(n, int(n / 2), 2))
+    # value is odd number
     else:
-        factorize_file(sys.argv[1])
+        a = int(ceil(sqrt(n)))
+        while (True):
+            b1 = a * a - n
+            b = int(sqrt(b1))
+            if(b * b == b1):
+                break
+            else:
+                a += 1
+        print("{}={}*{}".format(n, a + b, a - b))

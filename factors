@@ -1,48 +1,65 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 
-check_factor()
-{
-	if [ $# -ne 3 ];
-        then
-                args=("$@")
-                count=0
-                num2=1
-                for a in ${args[*]};
-                do
-                        if [ $count -gt 1 ];
-                        then
-                                num2=$(echo $a*$num2 | bc)
-                        fi
-                        count=$((count + 1))
-                done
-        else
-                num2=$3
-        fi
+"""Factorize digits into an outcome of two smaller digits"""
+import sys
+import time
 
-        num1=$2
-        num=$(echo "$1" | tr ':' '=')
+def generate_primes(limit):
+    primes = [2]
+    for num in range(3, limit + 1, 2):
+        is_prime = all(num % prime != 0 for prime in primes if prime * prime <= num)
+        if is_prime:
+            primes.append(num)
+    return primes
 
-        result=$(echo "if($num2 > $num1) 1 else 0" | bc)
-	        if ((result == 1)); then
-		        numcp=$num1
-		        num1=$num2
-		        num2=$numcp
-                fi
+PRIMES = generate_primes(1000)
 
-        echo "$num$num1*$num2"
-}
+def least_prime(n):
+    """Find the smallest prime factor of n"""
+    if n <= 1:
+        return n
+    for prime in PRIMES:
+        if n % prime == 0:
+            return prime
+        if prime * prime > n:
+            break
+    return n
 
-if [ $# -ne 1 ]
-then
-        echo 'Usage: factors <file>'
-        exit 1
-else
+def factorize(digit):
+    """Factorize a digit into two smaller digits"""
+    if digit <= 1:
+        return digit, 1
 
-        while read i
-        do
+    elem = least_prime(digit)
+    if elem == digit:
+        return digit, 1
 
-                result=$(factor "$i")
-                check_factor $result
+    fac = digit // elem
+    return fac, elem
 
-        done < "$1"
-fi
+def factorize_file(path):
+    """Factorize digits in the provided file into two smaller digits"""
+    try:
+        with open(path) as f:
+            for line in f:
+                n = int(line.strip())
+                p, q = factorize(n)
+                print(f"{n}={p}*{q}")
+
+                if time.time() - start_time > 5:
+                    print("Execution time exceeded the limit.")
+                    break
+    except FileNotFoundError:
+        print(f"File '{path}' not found.")
+    except ValueError:
+        print("Invalid data in the file.")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        sys.exit(f"Usage: {sys.argv[0]} <path>")
+
+    factors = sys.argv[1]
+
+    start_time = time.time()
+
+    factorize_file(factors)

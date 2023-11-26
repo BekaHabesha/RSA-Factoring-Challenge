@@ -1,39 +1,69 @@
 #!/usr/bin/python3
-"""
-factorizing numbers into two prime numbers
-Usage: rsa <file>
-	<file> is a file that contain natural numbers to be factorized into
-	       two prime numbers
-	Output: n=p*q
-"""
-from sys import argv
+# Author - Bereket Dereje
 
-with open(argv[1]) as f:
+import sys
+import time
+import math
 
-    for line in f:
+def prime_digit(num):
 
-        num = int(line)
+    """check the digit is prime"""
 
-        print("{:d}=".format(num), end="")
+    if num < 2:
+        return False
 
-        if num % 2 == 0:
+    for k in range(2, int(math.sqrt(num)) + 1):
+        if num % k == 0:
+            return False
 
-            print("{}*2".format(num//2))
+    return True
 
-            continue
+def gcd(a, b):
 
-        for i in range(3, num, 2):
+    """search the largest divisor of a and b"""
 
-            if num % i == 0:
+    while b:
+        a, b = b, a % b
+    return a
 
-                factor = num//i
+def pollard_rho(n):
 
-                for j in range(3, factor, 2):
+    """Pollard's rho algorithm for factorizing a number"""
 
-                    if factor % j == 0 or i % j == 0:
+    if n % 2 == 0:
+        return 2, n // 2
 
-                        break
+    x = 2
+    y = 2
+    d = 1
+    f = lambda val: (val * val + 1) % n
 
-                print("{}*{}".format(factor, i))
+    while d == 1:
+        x = f(x)
+        y = f(f(y))
+        d = gcd(abs(x - y), n)
 
-                break
+    return d, n // d
+
+def factorize_file(path):
+
+    """Factorize digits of provided file into two smaller digits"""
+
+    try:
+        with open(path) as f:
+
+            n = int(f.read().strip())
+            p, q = pollard_rho(n)
+            if p is not None and q is not None and prime_digit(p) and prime_digit(q):
+                print(f"{n}={p}*{q}")
+            else:
+                print(f"Couldn't find two prime factors for {n}")
+
+    except FileNotFoundError:
+        print("File not found.")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python rsa.py <filename>")
+    else:
+        factorize_file(sys.argv[1])

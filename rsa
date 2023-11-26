@@ -1,47 +1,57 @@
 #!/usr/bin/python3
+
 import sys
+import time
+import math
+import random
 
-"""
-File_name: rsa
-Created: 28th of May, 2023
-Auth: David James Taiye (Official0mega)
-Size: undefined
-Project: RSA-Factoring-Challenge
-Status: submitted.
-"""
+def prime_digit(num):
+    """search if a digit is prime"""
+    if num < 2:
+        return False
+    for k in range(2, int(math.sqrt(num)) + 1):
+        if num % k == 0:
+            return False
+    return True
 
+def gcd(a, b):
+    """search the largest divisor of a and b"""
+    while b:
+        a, b = b, a % b
+    return a
 
-def factorization():
+def pollard_rho(n):
+    """Pollard's rho algorithm for factorizing a number"""
+    if n % 2 == 0:
+        return 2, n // 2
 
-    """
-    # RSA Laboratories states that: for each RSA number n
-    # ...there exist prime numbers p and q such that
-    # n = p × q. The problem is to find these two primes, given only n.
-    # VARIABLE(" "):
-    # factorize(int) Factorize all the things!
-    # This task is the same as task 0, except:
-    # .....p and q are always prime numbers
-    # .....There is only one number in the files
-    # .....How far can you go in less than 5 second? 🤔🤔🤔
-    """
+    x = 2
+    y = 2
+    d = 1
+    f = lambda val: (val * val + 1) % n
+
+    while d == 1:
+        x = f(x)
+        y = f(f(y))
+        d = gcd(abs(x - y), n)
+
+    return d, n // d
+
+def factorize_file(path):
+    """Factorizes digits in the provided file into two prime factors"""
     try:
-        files = sys.argv[1]
-        with open(files) as f:
-            for numbs in f:
-                numbs = int(numbs)
-                if numbs % 2 == 0:
-                    print("{}={}*{}".format(numbs, numbs // 2, 2))
-                    continue
-                run = 3
-                while run < numbs // 2:
-                    if numbs % run == 0:
-                        print("{}={}*{}".format(numbs, numbs // run, run))
-                        break
-                    run = run + 2
-                if run == (numbs // 2) + 1:
-                    print("{}={}*{}".format(numbs, numbs, 1))
-    except (IndexError):
-        pass
+        with open(path) as f:
+            n = int(f.read().strip())
+            p, q = pollard_rho(n)
+            if p is not None and q is not None and prime_digit(p) and prime_digit(q):
+                print(f"{n}={p}*{q}")
+            else:
+                print(f"Couldn't find two prime factors for {n}")
+    except FileNotFoundError:
+        print("File not found.")
 
-
-factorization()
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python rsa.py <filename>")
+    else:
+        factorize_file(sys.argv[1])

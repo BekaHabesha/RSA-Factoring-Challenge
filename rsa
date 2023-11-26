@@ -1,69 +1,40 @@
-#!/usr/bin/python3
-# Author - Bereket Dereje
+#!/usr/bin/env python3
 
 import sys
-import time
-import math
 
-def prime_digit(num):
 
-    """check the digit is prime"""
-
-    if num < 2:
+def is_prime(n):
+    """
+    Test whether n is a prime number.
+    """
+    if n <= 1:
         return False
-
-    for k in range(2, int(math.sqrt(num)) + 1):
-        if num % k == 0:
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
             return False
-
     return True
 
-def gcd(a, b):
 
-    """search the largest divisor of a and b"""
+def factorize_rsa(n):
+    """
+    Factorize an RSA number n into two prime numbers p and q.
+    """
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            if is_prime(i) and is_prime(n//i):
+                return f"{n}={i}*{n//i}"
+    return f"{n} is prime"
 
-    while b:
-        a, b = b, a % b
-    return a
-
-def pollard_rho(n):
-
-    """Pollard's rho algorithm for factorizing a number"""
-
-    if n % 2 == 0:
-        return 2, n // 2
-
-    x = 2
-    y = 2
-    d = 1
-    f = lambda val: (val * val + 1) % n
-
-    while d == 1:
-        x = f(x)
-        y = f(f(y))
-        d = gcd(abs(x - y), n)
-
-    return d, n // d
-
-def factorize_file(path):
-
-    """Factorize digits of provided file into two smaller digits"""
-
-    try:
-        with open(path) as f:
-
-            n = int(f.read().strip())
-            p, q = pollard_rho(n)
-            if p is not None and q is not None and prime_digit(p) and prime_digit(q):
-                print(f"{n}={p}*{q}")
-            else:
-                print(f"Couldn't find two prime factors for {n}")
-
-    except FileNotFoundError:
-        print("File not found.")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python rsa.py <filename>")
-    else:
-        factorize_file(sys.argv[1])
+        print(f"Usage: {sys.argv[0]} <file>")
+        sys.exit(1)
+
+    try:
+        with open(sys.argv[1], "r") as f:
+            n = int(f.readline().strip())
+            print(factorize_rsa(n))
+    except OSError as e:
+        print(f"Error: {e}")
+        sys.exit(1)

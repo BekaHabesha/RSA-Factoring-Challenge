@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Author - Bereket Dereje
 
-"""Factorize digits into an output of two small digits"""
+"""Factorize the digits into an output of two small digits"""
 
 import sys
 import time
@@ -22,31 +22,29 @@ def generate_primes(limit):
 
 PRIMES = generate_primes(1000)
 
-def nBitRandom(n):
-    return random.randrange(2**(n-1)+1, 2**n - 1)
-
 def least_prime(n):
-    """Finding the smallest factor of n"""
+    """Finding the smallest prime factor of n"""
 
     if n <= 1:
         return n
 
-    prime = nBitRandom(n)
     for prime in PRIMES:
-        if n % prime == 0 and prime ** 2 <= n:
+        if n % prime == 0:
             return prime
 
         if prime * prime > n:
             break
-     
+
     return n
 
 def factorize(digit):
-    """Factorize a digit into two smaller digits"""
+    """Factorize the digit into two smaller digits"""
+
     if digit <= 1:
         return digit, 1
 
     elem = least_prime(digit)
+
     if elem == digit:
         return digit, 1
 
@@ -54,10 +52,12 @@ def factorize(digit):
     return fac, elem
 
 def factorize_file(path):
-    """Factorize digits in the provided file into two smaller digits"""
-    start_time = time.time()
+
+    """Factorize digits of provided file into two smaller digits"""
+
     try:
         with open(path) as f:
+
             for line in f:
                 n = int(line.strip())
                 p, q = factorize(n)
@@ -66,17 +66,21 @@ def factorize_file(path):
                 if time.time() - start_time > 5:
                     print("Execution time exceeded the limit.")
                     break
+
     except FileNotFoundError:
         print(f"File '{path}' not found.")
+
     except ValueError:
         print("Invalid data in the file.")
 
 if __name__ == "__main__":
+
     if len(sys.argv) != 2:
         sys.exit(f"Usage: {sys.argv[0]} <path>")
 
     factors = sys.argv[1]
 
-    
+    start_time = time.time()
+
 
     factorize_file(factors)
